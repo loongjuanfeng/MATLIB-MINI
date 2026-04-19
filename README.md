@@ -1,3 +1,12 @@
+how to build
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+---
+
 # MatLibrary
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
