@@ -59,4 +59,7 @@ CMakeUserPresets.json
 # User add
 
 build/
+build-debug/
 .cache/
+
+CLAUDE.md

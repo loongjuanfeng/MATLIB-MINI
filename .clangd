@@ -1,2 +1,6 @@
 CompileFlags:
   Add: [-std=c++23]
+  Remove:
+    - -fmodules-ts
+    - -fdeps-format=p1689r5
+    - "-fmodule-mapper=*"
