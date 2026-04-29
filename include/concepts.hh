@@ -5,17 +5,18 @@
 
 namespace MATLIB::concepts {
 
+namespace {
 template <typename Type>
 [[nodiscard]] Type absolute_value(Type value) {
     using std::abs;
     return abs(value);
 }
-
 template <typename Type>
 [[nodiscard]] Type square_root(Type value) {
     using std::sqrt;
     return sqrt(value);
 }
+}  // namespace
 
 template <typename Type>
 concept is_ring = std::regular<Type> && requires(Type value_1, Type value_2) {

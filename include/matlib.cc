@@ -1,6 +1,8 @@
 #pragma once
 
+#ifndef __MATLIB__
 #include "matlib.hh"
+#endif
 
 #include <algorithm>
 #include <execution>
